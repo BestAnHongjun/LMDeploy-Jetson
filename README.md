@@ -25,12 +25,19 @@
 
 ## 部署教程
 [S1.服务器端模型W4A16量化](./zh/s1.md)
+
 [S2.Jetson端安装Miniconda](./zh/s2.md)
+
 [S3.Jetson端安装CMake-3.29.0](./zh/s3.md)
+
 [S4.Jetson端安装RapidJson](./zh/s4.md)
+
 [S5.Jetson端安装Pytorch-2.1.0](./zh/s5.md)
+
 [S6.Jetson端移植LMDeploy-2.3.0](./zh/s6.md)
+
 [S7.Jetson端离线运行InternLM大模型](./zh/s7.md)
+
 
 ## 引用
 
