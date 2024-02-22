@@ -20,7 +20,7 @@
 |Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>*28.36 token/s*|❌|❌|
 
 > 基准测试指令: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
-> 参考: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/profile_generation.py)
+> 参考: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
 ## 未来工作
 * 在Nano/Xavier NX等更多Jetson板卡测试

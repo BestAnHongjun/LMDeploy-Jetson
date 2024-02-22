@@ -20,7 +20,7 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 |Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>28.36 token/s|❌|❌|
 
 > Command of Benchmark Test: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
-> Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/profile_generation.py)
+> Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
 ## Future Work
 * Testing on more Jetson boards such as Nano and Xavier NX.
