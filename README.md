@@ -23,7 +23,7 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 > Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
 ## Future Work
-* Testing on more Jetson boards such as Nano and Xavier NX.
+* Testing on more Jetson boards such as Nano and AGX.
 * ……
 
 ## Tutorial

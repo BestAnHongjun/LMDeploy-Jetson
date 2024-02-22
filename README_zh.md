@@ -23,7 +23,7 @@
 > 参考: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
 ## 未来工作
-* 在Nano/Xavier NX等更多Jetson板卡测试
+* 在Nano/AGX等更多Jetson板卡测试
 * ……
 
 ## 部署教程
