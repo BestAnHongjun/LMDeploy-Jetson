@@ -25,19 +25,19 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 * ……
 
 ## Tutorial
-[S1.Quantize on server by W4A16](./zh/s1.md)
+[S1.Quantize on server by W4A16](./en/s1.md)
 
-[S2.Install Miniconda on Jetson](./zh/s2.md)
+[S2.Install Miniconda on Jetson](./en/s2.md)
 
-[S3.Install CMake-3.29.0 on Jetson](./zh/s3.md)
+[S3.Install CMake-3.29.0 on Jetson](./en/s3.md)
 
-[S4.Install RapidJson on Jetson](./zh/s4.md)
+[S4.Install RapidJson on Jetson](./en/s4.md)
 
-[S5.Install Pytorch-2.1.0 on Jetson](./zh/s5.md)
+[S5.Install Pytorch-2.1.0 on Jetson](./en/s5.md)
 
-[S6.Port LMDeploy-2.3.0 to Jetson](./zh/s6.md)
+[S6.Port LMDeploy-2.3.0 to Jetson](./en/s6.md)
 
-[S7.Run InternLM offline on Jetson](./zh/s7.md)
+[S7.Run InternLM offline on Jetson](./en/s7.md)
 
 
 ## Citation
