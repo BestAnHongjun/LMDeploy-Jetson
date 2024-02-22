@@ -17,9 +17,9 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 |Models|InternLM-7B|InternLM-20B|InternLM2-1.8B|InternLM2-7B|InternLM2-20B|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |Orin NX(16G)<br>Jetpack 5.1|✅<br>Mem:8.6G/16G<br>*7.39 token/s*|✅<br>Mem:14.7G/16G<br>*3.08 token/s*|✅<br>Mem:5.6G/16G<br>*22.96 token/s*|✅<br>Mem:9.2G/16G<br>*7.48 token/s*|✅<br>Mem:14.8G/16G<br>*3.19 token/s*|
-|Xavier NX(8G)<br>Jetpack 5.1|⭕️|⭕️|⭕️|⭕️|⭕️|
+|Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>28.36 token/s|❌|❌|
 
-> Command of Benchmark Test: ```python profile_generation.py <path/to/model> --c 1 -pt 128 -ct 128``` \
+> Command of Benchmark Test: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
 > Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/profile_generation.py)
 
 ## Future Work
