@@ -1,47 +1,48 @@
 # LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence
 
-***在NVIDIA Jetson平台离线部署大模型，开启离线具身智能新纪元。***
+***Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.***
 
-本项目提供一种将[LMDeploy](https://github.com/InternLM/lmdeploy)移植到NVIDIA Jetson系列边缘计算卡的方法，并在Jetson计算卡上运行[InternLM](https://github.com/InternLM/InternLM)系列大模型，为**离线具身智能**提供可能。
+[[中文]](./README_zh.md) | [[English]](./README.md)
 
-演示视频：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
+This project focuses on adapting [LMDeploy](https://github.com/InternLM/lmdeploy) for use with NVIDIA Jetson series edge computing cards, facilitating the implementation of [InternLM](https://github.com/InternLM/InternLM) series LLMs for **Offline Embodied Intelligence (OEI)**.
 
-## 已验证模型/平台
+Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
-* ✅：已验证可运行
-* ❌：已验证不可运行
-* ⭕️：待验证
+## Verified model/platform
+
+* ✅：Verified and runnable
+* ❌：Verified but not runnable
+* ⭕️：Pending verification
 
 |Models|InternLM-7B|InternLM-20B|InternLM2-1.8B|InternLM2-7B|InternLM2-20B|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |Orin NX(16G)<br>Jetpack 5.1|✅<br>Mem:8.6G/16G|✅<br>Mem:14.7G/16G|✅<br>Mem:5.6G/16G|✅<br>Mem:9.2G/16G|✅<br>Mem:14.8G/16G|
 |Xavier NX(8G)<br>Jetpack |⭕️|⭕️|⭕️|⭕️|⭕️|
 
-## 未来工作
-* 测试各模型在Jetson平台的基准推理速度
-* 在Nano/Xavier NX等更多Jetson板卡测试
-* 英文版文档
+## Future Work
+* Testing the benchmark inference speed of various LLMs on the Jetson platform.
+* Testing on more Jetson boards such as Nano and Xavier NX.
 * ……
 
-## 部署教程
-[S1.服务器端模型W4A16量化](./zh/s1.md)
+## Tutorial
+[S1.Quantize on server by W4A16](./zh/s1.md)
 
-[S2.Jetson端安装Miniconda](./zh/s2.md)
+[S2.Install Miniconda on Jetson](./zh/s2.md)
 
-[S3.Jetson端安装CMake-3.29.0](./zh/s3.md)
+[S3.Install CMake-3.29.0 on Jetson](./zh/s3.md)
 
-[S4.Jetson端安装RapidJson](./zh/s4.md)
+[S4.Install RapidJson on Jetson](./zh/s4.md)
 
-[S5.Jetson端安装Pytorch-2.1.0](./zh/s5.md)
+[S5.Install Pytorch-2.1.0 on Jetson](./zh/s5.md)
 
-[S6.Jetson端移植LMDeploy-2.3.0](./zh/s6.md)
+[S6.Port LMDeploy-2.3.0 to Jetson](./zh/s6.md)
 
-[S7.Jetson端离线运行InternLM大模型](./zh/s7.md)
+[S7.Run InternLM offline on Jetson](./zh/s7.md)
 
 
-## 引用
+## Citation
 
-如果本项目对您的工作有所帮助，请使用以下格式引用：
+If this project is helpful to your work, please cite it using the following format:
 
 ```bibtex
 @misc{hongjun2024lmdeployjetson,
@@ -52,13 +53,13 @@
 }
 ```
 
-## 致谢
+## Acknowledgements
 
-* [上海人工智能实验室](https://www.shlab.org.cn/)组织的[书生·浦语大模型实战营](https://github.com/InternLM/tutorial/)为我学习大模型相关理论及技术提供了宝贵的学习资料及算力资源，浦语小助手等老师也为我提供了莫大的帮助，在此一并致以真挚的谢意！
+* The [InternLM Practical Camp](https://github.com/InternLM/tutorial/) organized by the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/) has provided valuable learning materials and computational resources for my study of LLM-related theories and technologies. Teachers have also provided tremendous assistance to me. I hereby express my sincere gratitude to all of them!
 
-## 作者单位
+## Institution
 
-**安泓郡**，西北工业大学光电与智能研究院，博士生
+**Hongjun An**, Ph.D. Student, School of Artificial Intelligence, Optics and ElectroNics (iOPEN)
 > Email: an.hongjun@foxmail.com \
 > Page: www.anhongjun.top
 
