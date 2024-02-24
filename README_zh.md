@@ -19,6 +19,8 @@
 |Orin NX(16G)<br>Jetpack 5.1|✅<br>Mem:8.6G/16G<br>*7.39 token/s*|✅<br>Mem:14.7G/16G<br>*3.08 token/s*|✅<br>Mem:5.6G/16G<br>*22.96 token/s*|✅<br>Mem:9.2G/16G<br>*7.48 token/s*|✅<br>Mem:14.8G/16G<br>*3.19 token/s*|
 |Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>*28.36 token/s*|❌|❌|
 
+**如果您有更多Jetson系列板卡，欢迎运行Benchmark并通过`Pull requests`(PR)提交结果，成为社区贡献者之一！**
+
 > 基准测试指令: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
 > 参考: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 

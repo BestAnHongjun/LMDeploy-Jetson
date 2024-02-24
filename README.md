@@ -19,6 +19,9 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 |Orin NX(16G)<br>Jetpack 5.1|✅<br>Mem:8.6G/16G<br>*7.39 token/s*|✅<br>Mem:14.7G/16G<br>*3.08 token/s*|✅<br>Mem:5.6G/16G<br>*22.96 token/s*|✅<br>Mem:9.2G/16G<br>*7.48 token/s*|✅<br>Mem:14.8G/16G<br>*3.19 token/s*|
 |Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>*28.36 token/s*|❌|❌|
 
+
+**If you have more Jetson series boards, feel free to run benchmarks and submit the results via `Pull Requests` (PR) to become one of the community contributors!**
+
 > Command of Benchmark Test: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
 > Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
