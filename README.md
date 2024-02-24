@@ -8,6 +8,10 @@ This project focuses on adapting [LMDeploy](https://github.com/InternLM/lmdeploy
 
 Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
+## Latest News🎉
+
+* [2024/2/25] Updated support for [LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4).
+
 ## Verified model/platform
 
 * ✅：Verified and runnable
@@ -40,7 +44,7 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 [S5.Install Pytorch-2.1.0 on Jetson](./en/s5.md)
 
-[S6.Port LMDeploy-2.3.0 to Jetson](./en/s6.md)
+[S6.Port LMDeploy-0.2.4 to Jetson](./en/s6.md)
 
 [S7.Run InternLM offline on Jetson](./en/s7.md)
 

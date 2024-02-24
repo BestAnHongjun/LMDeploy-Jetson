@@ -8,6 +8,10 @@
 
 演示视频：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
+## 最新新闻🎉
+
+* [2024/2/25] 更新了对[LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4)的支持。
+
 ## 已验证模型/平台
 
 * ✅：已验证可运行
@@ -39,7 +43,7 @@
 
 [S5.Jetson端安装Pytorch-2.1.0](./zh/s5.md)
 
-[S6.Jetson端移植LMDeploy-2.3.0](./zh/s6.md)
+[S6.Jetson端移植LMDeploy-0.2.4](./zh/s6.md)
 
 [S7.Jetson端离线运行InternLM大模型](./zh/s7.md)
 
