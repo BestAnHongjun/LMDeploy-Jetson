@@ -1,4 +1,4 @@
-# LMDeploy-Jetson基准测试
+# Test Benchmark of LMDeploy-Jetson
 
 Please first refer to S2-S7 for deploying LMDeploy in Jetson.
 
