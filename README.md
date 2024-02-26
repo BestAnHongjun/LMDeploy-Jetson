@@ -56,7 +56,7 @@ If this project is helpful to your work, please cite it using the following form
 ```bibtex
 @misc{hongjun2024lmdeployjetson,
     title={LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence},
-    author={Hongjun An},
+    author={LMDeploy-Jetson Community},
     url={https://github.com/BestAnHongjun/LMDeploy-Jetson},
     year={2024}
 }
@@ -64,14 +64,5 @@ If this project is helpful to your work, please cite it using the following form
 
 ## Acknowledgements
 
-* The [InternLM Practical Camp](https://github.com/InternLM/tutorial/) organized by the [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/) has provided valuable learning materials and computational resources for my study of LLM-related theories and technologies. Teachers have also provided tremendous assistance to me. I hereby express my sincere gratitude to all of them!
-
-## Institution
-
-**Hongjun An**, Ph.D. Student, School of Artificial Intelligence, Optics and ElectroNics (iOPEN)
-> Email: an.hongjun@foxmail.com \
-> Page: www.anhongjun.top
-
-<div align="center">
-<img src="./attach/logo.jpg" width="500px">
-</div>
+* [InternLM Practical Camp](https://github.com/InternLM/tutorial/)
+* [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/)

@@ -55,7 +55,7 @@
 ```bibtex
 @misc{hongjun2024lmdeployjetson,
     title={LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence},
-    author={Hongjun An},
+    author={LMDeploy-Jetson Community},
     url={https://github.com/BestAnHongjun/LMDeploy-Jetson},
     year={2024}
 }
@@ -63,14 +63,5 @@
 
 ## 致谢
 
-* [上海人工智能实验室](https://www.shlab.org.cn/)组织的[书生·浦语大模型实战营](https://github.com/InternLM/tutorial/)为我学习大模型相关理论及技术提供了宝贵的学习资料及算力资源，浦语小助手等老师也为我提供了莫大的帮助，在此一并致以真挚的谢意！
-
-## 作者单位
-
-**安泓郡**，西北工业大学光电与智能研究院，博士生
-> Email: an.hongjun@foxmail.com \
-> Page: www.anhongjun.top
-
-<div align="center">
-<img src="./attach/logo.jpg" width="500px">
-</div>
+* [书生·浦语大模型实战营](https://github.com/InternLM/tutorial/)
+* [上海人工智能实验室](https://www.shlab.org.cn/)
