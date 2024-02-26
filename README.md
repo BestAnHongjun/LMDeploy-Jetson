@@ -27,14 +27,13 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 **If you have more Jetson series boards, feel free to run benchmarks and submit the results via `Pull Requests` (PR) to become one of the community contributors!**
 
-> Command of Benchmark Test: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
-> Ref: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
 
 ## Future Work
 * Testing on more Jetson boards such as Nano and AGX.
 * ……
 
 ## Tutorial
+
 [S1.Quantize on server by W4A16](./en/s1.md)
 
 [S2.Install Miniconda on Jetson](./en/s2.md)
@@ -49,6 +48,10 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 [S7.Run InternLM offline on Jetson](./en/s7.md)
 
+## Appendix
+
+* [Reinstall Jetpack for Jetson](https://www.anhongjun.top/blogs.php?id=1)
+* [Test Benchmark of LMDeploy-Jetson](./en/benchmark.md)
 
 ## Citation
 

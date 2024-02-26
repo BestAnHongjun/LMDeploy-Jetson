@@ -26,14 +26,12 @@
 
 **如果您有更多Jetson系列板卡，欢迎运行Benchmark并通过`Pull requests`(PR)提交结果，成为社区贡献者之一！**
 
-> 基准测试指令: ```python profile_generation.py ../../models/internlm2-chat-1_8b-turbomind --concurrency 1 --prompt-tokens 128 --completion-tokens 128``` \
-> 参考: [lmdeploy/benchmark](https://github.com/InternLM/lmdeploy/blob/main/benchmark/README.md)
-
 ## 未来工作
 * 在Nano/AGX等更多Jetson板卡测试
 * ……
 
 ## 部署教程
+
 [S1.服务器端模型W4A16量化](./zh/s1.md)
 
 [S2.Jetson端安装Miniconda](./zh/s2.md)
@@ -48,6 +46,10 @@
 
 [S7.Jetson端离线运行InternLM大模型](./zh/s7.md)
 
+## 附录
+
+* [为Jetson重装Jetpack](https://www.anhongjun.top/blogs.php?id=1)
+* [LMDeploy-Jetson基准测试](./zh/benchmark.md)
 
 ## 引用
 
