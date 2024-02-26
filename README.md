@@ -10,6 +10,7 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 ## Latest News🎉
 
+* [2024/2/26] This project has been included in the [LMDeploy](https://github.com/InternLM/lmdeploy) community.
 * [2024/2/25] Updated support for [LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4).
 
 ## Verified model/platform

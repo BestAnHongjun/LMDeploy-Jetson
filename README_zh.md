@@ -10,6 +10,7 @@
 
 ## 最新新闻🎉
 
+* [2024/2/26] 本项目被[LMDeploy](https://github.com/InternLM/lmdeploy)官方社区收录。
 * [2024/2/25] 更新了对[LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4)的支持。
 
 ## 已验证模型/平台
