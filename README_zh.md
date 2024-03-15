@@ -21,6 +21,7 @@
 
 |Models|InternLM-7B|InternLM-20B|InternLM2-1.8B|InternLM2-7B|InternLM2-20B|
 |:-:|:-:|:-:|:-:|:-:|:-:|
+|Orin AGX(32G)<br>Jetpack 5.1|✅<br>*14.68 token/s*|✅<br>*5.82 token/s*|✅<br>*56.57 token/s*|✅<br>*14.56 token/s*|✅<br>*6.16 token/s*|
 |Orin NX(16G)<br>Jetpack 5.1|✅<br>Mem:8.6G/16G<br>*7.39 token/s*|✅<br>Mem:14.7G/16G<br>*3.08 token/s*|✅<br>Mem:5.6G/16G<br>*22.96 token/s*|✅<br>Mem:9.2G/16G<br>*7.48 token/s*|✅<br>Mem:14.8G/16G<br>*3.19 token/s*|
 |Xavier NX(8G)<br>Jetpack 5.1|❌|❌|✅<br>Mem:4.35G/8G<br>*28.36 token/s*|❌|❌|
 
