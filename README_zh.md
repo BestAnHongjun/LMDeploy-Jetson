@@ -1,4 +1,4 @@
-# LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence
+# LMDeploy-Jetson社区
 
 ***在NVIDIA Jetson平台离线部署大模型，开启离线具身智能新纪元。***
 
@@ -6,12 +6,22 @@
 
 本项目提供一种将[LMDeploy](https://github.com/InternLM/lmdeploy)移植到NVIDIA Jetson系列边缘计算卡的方法，并在Jetson计算卡上运行[InternLM](https://github.com/InternLM/InternLM)系列大模型，为**离线具身智能**提供可能。
 
-演示视频：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
-
 ## 最新新闻🎉
 
+* [2024/3/15] 更新了对[LMDeploy-v0.2.5](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.5)。
 * [2024/2/26] 本项目被[LMDeploy](https://github.com/InternLM/lmdeploy)官方社区收录。
-* [2024/2/25] 更新了对[LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4)的支持。
+
+## 社区招募
+
+* 招募社区管理员(联系方式，an.hongjun@foxmail.com)
+* 招募更多型号Jetson板卡的Benchmark测试数据，可直接PR，如：
+    * Jetson Nano
+    * Jetson TX2
+    * Jetson AGX Xavier
+    * Jetson Orin Nano
+    * Jetson AGX Orin
+* 招募开发者制作Jetson专用whl发行版
+* README优化等
 
 ## 已验证模型/平台
 
@@ -27,8 +37,9 @@
 **如果您有更多Jetson系列板卡，欢迎运行Benchmark并通过`Pull requests`(PR)提交结果，成为社区贡献者之一！**
 
 ## 未来工作
-* 在Nano/AGX等更多Jetson板卡测试
-* ……
+* 更新更多型号Jetson板卡的Benchmark测试数据
+* 制作Jetson专用whl发行版
+* 跟进更新版本的LMDeploy
 
 ## 部署教程
 
@@ -42,7 +53,7 @@
 
 [S5.Jetson端安装Pytorch-2.1.0](./zh/s5.md)
 
-[S6.Jetson端移植LMDeploy-0.2.4](./zh/s6.md)
+[S6.Jetson端移植LMDeploy-0.2.5](./zh/s6.md)
 
 [S7.Jetson端离线运行InternLM大模型](./zh/s7.md)
 
@@ -51,12 +62,16 @@
 * [为Jetson重装Jetpack](https://www.anhongjun.top/blogs.php?id=1)
 * [LMDeploy-Jetson基准测试](./zh/benchmark.md)
 
+## 社区项目
+
+* InternDog: 基于InternLM2大模型的离线具身智能导盲犬 [[Github]](https://github.com/BestAnHongjun/InternDog) [[Bilibili]](https://www.bilibili.com/video/BV1RK421s7dm)
+
 ## 引用
 
 如果本项目对您的工作有所帮助，请使用以下格式引用：
 
 ```bibtex
-@misc{hongjun2024lmdeployjetson,
+@misc{2024lmdeployjetson,
     title={LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence},
     author={LMDeploy-Jetson Community},
     url={https://github.com/BestAnHongjun/LMDeploy-Jetson},
