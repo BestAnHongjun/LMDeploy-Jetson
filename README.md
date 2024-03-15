@@ -1,4 +1,4 @@
-# LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence
+# LMDeploy-Jetson Community
 
 ***Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.***
 
@@ -6,12 +6,22 @@
 
 This project focuses on adapting [LMDeploy](https://github.com/InternLM/lmdeploy) for use with NVIDIA Jetson series edge computing cards, facilitating the implementation of [InternLM](https://github.com/InternLM/InternLM) series LLMs for **Offline Embodied Intelligence (OEI)**.
 
-Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
-
 ## Latest News🎉
 
+* [2024/3/15] Updated suppoort for [LMDeploy-v0.2.5](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.5).
 * [2024/2/26] This project has been included in the [LMDeploy](https://github.com/InternLM/lmdeploy) community.
-* [2024/2/25] Updated support for [LMDeploy-v0.2.4](https://github.com/InternLM/lmdeploy/releases/tag/v0.2.4).
+
+## Community Recruitment
+
+* Recruiting community managers (Contact: an.hongjun@foxmail.com)
+* Recruiting benchmark testing data for more models of Jetson boards (please PR directly), such as:
+    * Jetson Nano
+    * Jetson TX2
+    * Jetson AGX Xavier
+    * Jetson Orin Nano
+    * Jetson AGX Orin
+* Recruiting developers to create Jetson-specific whl distributions
+* README optimization, etc.
 
 ## Verified model/platform
 
@@ -30,8 +40,10 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 
 ## Future Work
-* Testing on more Jetson boards such as Nano and AGX.
-* ……
+
+* Updating benchmark testing data for more models of Jetson boards.
+* Creating Jetson-specific whl distributions.
+* Following up on updates to the LMDeploy version.
 
 ## Tutorial
 
@@ -45,7 +57,7 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 
 [S5.Install Pytorch-2.1.0 on Jetson](./en/s5.md)
 
-[S6.Port LMDeploy-0.2.4 to Jetson](./en/s6.md)
+[S6.Port LMDeploy-0.2.5 to Jetson](./en/s6.md)
 
 [S7.Run InternLM offline on Jetson](./en/s7.md)
 
@@ -54,12 +66,16 @@ Demo：[[Bilibili]](https://www.bilibili.com/video/BV1iC411x76Q/)
 * [Reinstall Jetpack for Jetson](https://www.anhongjun.top/blogs.php?id=1)
 * [Test Benchmark of LMDeploy-Jetson](./en/benchmark.md)
 
+## Community Projects
+
+* InternDog: Offline embodied intelligent guide dog based on the InternLM2. [[Github]](https://github.com/BestAnHongjun/InternDog) [[Bilibili]](https://www.bilibili.com/video/BV1RK421s7dm)
+
 ## Citation
 
 If this project is helpful to your work, please cite it using the following format:
 
 ```bibtex
-@misc{hongjun2024lmdeployjetson,
+@misc{2024lmdeployjetson,
     title={LMDeploy-Jetson：Opening a new era of Offline Embodied Intelligence},
     author={LMDeploy-Jetson Community},
     url={https://github.com/BestAnHongjun/LMDeploy-Jetson},
