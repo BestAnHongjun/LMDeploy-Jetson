@@ -26,7 +26,17 @@ python profile_generation.py \
 
 Replace `internlm2 chat-1_8b turbomind` with your model path.
 
-Record the benchmark.
+Record the speed benchmark.
 
 ![](../attach/benchmark.png)
+
+During the inference process, the unified memory usage can be viewed through the `htop` command.
+
+```sh
+# Install htop (if already installed, please ignore)
+apt-get install htop
+
+# Run htop to check the usage of Mem.
+htop
+```
 
